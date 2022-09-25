@@ -20011,7 +20011,7 @@ def evenOrOdd(i):
 		
 while True:
 	try:
-		a = input("Please input a number and I'll tell you if its odd or even")
+		a = input("Please input a number and I'll tell you if its odd or even\n")
 		b = eval(a)
 		evenOrOdd(b)
 	except KeyboardInterrupt:
