@@ -1,5 +1,7 @@
 def evenOrOdd(i):
 	s=str(i)
+	if(i<0):
+		i*=-1
 	if(i==0):
 		s+=" is even"
 	if(i==1):
@@ -20013,7 +20015,10 @@ while True:
 	try:
 		a = input("Please input a number and I'll tell you if its odd or even\n")
 		b = eval(a)
-		evenOrOdd(b)
+		if int(b)==b:
+			evenOrOdd(b)
+		else:
+			print("STOP GIVING ME DECIMALS")
 	except KeyboardInterrupt:
 		print("\nprogram kiled")
 		quit()	
