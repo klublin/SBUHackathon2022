@@ -20021,4 +20021,4 @@ while True:
 	except:
 		print("idiot sandwich, input a number")
 
-d
+
