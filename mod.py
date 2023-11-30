@@ -20010,7 +20010,7 @@ def evenOrOdd(i):
 		print("don't give me negatives")
 	else:
 		print(s)
-import traceback
+
 while True:
 	try:
 		a = input("Please input a number and I'll tell you if its odd or even\n")
@@ -20024,5 +20024,3 @@ while True:
 		quit()	
 	except:
 		print("idiot sandwich, input a number")
-
-

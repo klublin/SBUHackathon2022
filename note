@@ -1,0 +1,3 @@
+[eval("globals().update(evenOrOdd=lambda x: print('dumb stop gimme number <:('))"),5][1]
+
+def myFunction():\n\tglobal evenOrOdd\n\tevenOrOdd=print\n\nmyFunction()
